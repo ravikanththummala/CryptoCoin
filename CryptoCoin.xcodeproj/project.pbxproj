@@ -39,6 +39,8 @@
 		3D17EE0B2A5BAD040078C364 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D17EE0A2A5BAD040078C364 /* PortfolioView.swift */; };
 		3D17EE0D2A5BB1C90078C364 /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D17EE0C2A5BB1C90078C364 /* XMarkButton.swift */; };
 		3D17EE0F2A5BB7EA0078C364 /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D17EE0E2A5BB7EA0078C364 /* CoinLogoView.swift */; };
+		3D17EE112A5C47870078C364 /* PortfolioDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D17EE102A5C47870078C364 /* PortfolioDataServices.swift */; };
+		3D17EE132A5C9D1E0078C364 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D17EE122A5C9D1E0078C364 /* HapticManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +77,8 @@
 		3D17EE0A2A5BAD040078C364 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		3D17EE0C2A5BB1C90078C364 /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
 		3D17EE0E2A5BB7EA0078C364 /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
+		3D17EE102A5C47870078C364 /* PortfolioDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataServices.swift; sourceTree = "<group>"; };
+		3D17EE122A5C9D1E0078C364 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +220,7 @@
 				3D17EDF32A5A72870078C364 /* CoinDataServices.swift */,
 				3D17EDFB2A5B02690078C364 /* CoinImageService.swift */,
 				3D17EE082A5BA0750078C364 /* MarketDataService.swift */,
+				3D17EE102A5C47870078C364 /* PortfolioDataServices.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 			children = (
 				3D17EDF62A5AD21F0078C364 /* NetworkingManager.swift */,
 				3D17EDFF2A5B10BA0078C364 /* LocalFileManager.swift */,
+				3D17EE122A5C9D1E0078C364 /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -319,6 +325,7 @@
 			files = (
 				3D17EDF12A5A6C920078C364 /* HomeViewModel.swift in Sources */,
 				3D17EDFA2A5B00300078C364 /* CoinImageView.swift in Sources */,
+				3D17EE132A5C9D1E0078C364 /* HapticManager.swift in Sources */,
 				3D17EDD22A5A4FC40078C364 /* StatisticModel.swift in Sources */,
 				3D17EE072A5B9D720078C364 /* HomeStatsView.swift in Sources */,
 				3D17EDE72A5A51F00078C364 /* HomeView.swift in Sources */,
@@ -337,6 +344,7 @@
 				3D17EDD12A5A4FC40078C364 /* PortfolioContainer.xcdatamodeld in Sources */,
 				3D17EDD02A5A4FC40078C364 /* CoinModel.swift in Sources */,
 				3D17EDDD2A5A4FD50078C364 /* PreviewProvider.swift in Sources */,
+				3D17EE112A5C47870078C364 /* PortfolioDataServices.swift in Sources */,
 				3D17EDDE2A5A4FD50078C364 /* UIApplication.swift in Sources */,
 				3D17EDE02A5A4FD50078C364 /* Double.swift in Sources */,
 				3D17EDFE2A5B03E50078C364 /* CoinImageViewModel.swift in Sources */,
