@@ -14,6 +14,7 @@ struct HomeView: View {
     @State private var showPortfolioView: Bool = false
     @State private var selectedCoin:CoinModel? = nil
     @State private var showDetailView:Bool = false
+    @State private var showSettingView:Bool = false
     
     
     var body: some View {
@@ -44,6 +45,10 @@ struct HomeView: View {
              
                 Spacer(minLength: 0)
             }
+            .sheet(isPresented: $showSettingView) {
+                SettingView()
+            }
+
         }
         .background(
             NavigationLink(destination: DetailLoadingView(coin: $selectedCoin), isActive: $showDetailView, label: {
@@ -54,6 +59,7 @@ struct HomeView: View {
 }
 
 struct HomeView_Previews: PreviewProvider {
+    
     static var previews: some View {
         NavigationView {
             HomeView()
@@ -71,6 +77,8 @@ extension HomeView {
                 .onTapGesture {
                     if showPortfolio{
                         showPortfolioView.toggle()
+                    }else{
+                        showSettingView.toggle()
                     }
                 }
                 .background(

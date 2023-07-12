@@ -148,7 +148,6 @@ extension DetailView {
                     .accentColor(.blue)
                     
                 }
-                .frame(width: .infinity,alignment: .leading)
                 
                 
             }
@@ -169,7 +168,6 @@ extension DetailView {
             }
         }
         .accentColor(.blue)
-        .frame(width: .infinity,alignment: .leading)
 
     }
     
